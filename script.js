@@ -13,6 +13,11 @@ form.addEventListener("submit", async (e) => {
       ? form.querySelector('input[name="Dine"]:checked').value
       : "",
     age: form.querySelector('select[name="age"]').value,
+    age: form.querySelector('select[name="Food"]').value,
+    age: form.querySelector('select[name="Service"]').value,
+    age: form.querySelector('select[name="Speed"]').value,
+    age: form.querySelector('select[name="Price"]').value,
+    age: form.querySelector('select[name="Experience"]').value,
     comments: form.querySelector('textarea').value,
   };
 
