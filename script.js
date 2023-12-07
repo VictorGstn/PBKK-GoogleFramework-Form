@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     try {
         const response = await fetch("https://script.google.com/macros/s/AKfycbwvrXieSUBYZS2QkfT1lKgR6bWLVQKVYdDiSOW2A2zAjevqwDf9aGWhecA9hQ0ciWs4/exec", {
         method: "POST",
-        body: new FormData(formData),
+        body: formData,
         
         });
 
