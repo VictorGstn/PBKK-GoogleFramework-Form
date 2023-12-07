@@ -11,9 +11,9 @@
       <form id="feedbackForm" class="container">
         <h1>Victor's Dinner Feedback Form</h1>
         <h4>Full Name</h4>
-        <input type="text" name="name" placeholder="Name" />
+        <input type="text" id='name' name="name" placeholder="Name" />
         <h4>Email</h4>
-        <input type="text" name="email" placeholder="example@mail.com" />
+        <input type="text" id="email" name="email" placeholder="example@mail.com" />
         <h4>Location Visited<span>*</span></h4>
         <select id="location" name="location">
           <option class="disabled" value="location" disabled selected>*Please Select*</option>
@@ -35,8 +35,8 @@
         </div>
         <h4>Dine In / Take Out</h4>
         <div class="question-answer">
-          <label><input type="radio" value="none" name="Dine" /> Dine In</label>
-          <label><input type="radio" value="none" name="Dine" /> Take Out</label>
+          <label><input type="radio" value="DineIn" name="Dine" /> Dine In</label>
+          <label><input type="radio" value="TakeOut" name="Dine" /> Take Out</label>
         </div>
         <h4>Age<span>*</span></h4>
         <select id="age" name="age">
