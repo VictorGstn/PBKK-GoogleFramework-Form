@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
-    const formData = new FormData(form);
+    const formData = new FormData();
     formData.append("name", form.querySelector('input[name="name"]').value)
     formData.append("email", form.querySelector('input[name="email"]').value)
     formData.append("location", form.querySelector('select[name="location"]').value)
